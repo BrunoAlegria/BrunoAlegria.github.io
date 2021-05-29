@@ -1,0 +1,65 @@
+/* Los vinculos presentan varios estados dentro de los cuales tenemos:
+-link: Es el vinculo normal 
+-visited: Cuando el vinculo ha sido visitado
+-hover: Cuando el mouse esta sobre el vinculo
+-active: Cuando le das click*/
+
+/* Aplicamos distintos formatos para el vinculo 1 */
+a.vinculo1:link {
+  color: blueviolet;
+}
+a.vinculo1:visited {
+  color: cadetblue;
+}
+a.vinculo1:hover {
+  color: darkorange;
+}
+a.vinculo1:active {
+  color: lawngreen;
+}
+/* Le quitamos todos los formatos al vinculo 2 */
+a.vinculo2:link {
+  text-decoration: none;
+  color: black;
+}
+a.vinculo2:visited {
+  text-decoration: none;
+  color: black;
+}
+a.vinculo2:hover {
+  text-decoration: none;
+  color: black;
+}
+a.vinculo2:active {
+  text-decoration: none;
+  color: black;
+}
+/* Aplicamos un estilo que tenga apariencia de un boton */
+a.vinculo3:link,
+a.vinculo3:visited {
+  background-color: green;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+a.vinculo3:hover,
+a.vinculo3:activate {
+  background-color: orange;
+  color: royalblue;
+}
+/* Aplicamos un estilo que tenga apariencia de un boton redondeado */
+a.vinculo4:link,
+a.vinculo4:visited {
+  background-color: red;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+a.vinculo4:hover,
+a.vinculo4:activate {
+  background-color: yellow;
+  color: turquoise;
+}

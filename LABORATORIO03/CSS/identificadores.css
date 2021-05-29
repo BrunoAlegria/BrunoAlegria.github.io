@@ -1,0 +1,24 @@
+#titulo {
+  color: rgb(131, 111, 0);
+  font-style: italic;
+}
+#barra {
+  background-color: darkblue;
+  height: 15px;
+}
+#subtitulospares {
+  color: darkgreen;
+  font-weight: bolder;
+}
+#parrafospares {
+  color: rgb(255, 0, 0);
+  font-style: italic;
+}
+#subtitulosimpares {
+  color: rgb(118, 0, 165);
+  font-weight: bolder;
+}
+#parrafosimpares {
+  color: rgb(255, 230, 0);
+  font-weight: bolder;
+}

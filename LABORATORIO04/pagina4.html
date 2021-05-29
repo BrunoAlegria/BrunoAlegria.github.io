@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 1</title>
+    <script type="text/javascript">
+    // EJEMPLO 1:
+    // Declaracion de Variables:
+    var numero1;
+    var num_2;
+    var sum;
+
+    // Inicializar Variables:
+    numero1=0;
+    num_2=0;
+    sum=0;
+
+    // Asignando Valores:
+    numero1=6;
+    num_2=7;
+
+    // Realizando la Operacion:
+    sum=numero1+num_2;
+
+    // Mostrando Valores:
+    alert("La suma es :"+sum);
+
+    document.write("La suma es: "+sum+"<br>");
+    document.write("<hr>");
+
+        // EJEMPLO 2:
+    // Declaracion de Variables:
+    var n1;
+    var n2;
+    var n3;
+    var n4;
+    var prom;
+
+    // Inicializar Variables:
+    n1=0;
+    n2=0;
+    n3=0;
+    n3=0;
+    prom=0;
+
+    // Asignando Valores:
+    n1=18;
+    n2=17;
+    n3=13;
+    n4=15;
+
+    // Realizando Operaciones:
+    prom=(n1+n2+n3+n4)/4;
+
+    // Mostrando Valores:
+    alert("El promedio es: "+prom);
+
+    document.write("El promedio es: "+prom+"<br>");
+    document.write("<hr>");
+
+    // Ejemplo 4:
+    // Desarrollar una aplicacion que permita calcular el sueldo final de un trabajador, si se sabe que su sueldo basico es de 1000 soles y recibe bonificacion del 7% y se le aplica un descuento del 4%. Mostrar todos los valores.
+
+    // Resolucion:
+    var sb;
+    var bon;
+    var des;
+    var sf;
+
+    sb=0;
+    bon=0;
+    des=0;
+    sf=0;
+
+    sb=1000;
+
+    bon=sb*0.07;
+    des=sb*0.04;
+    sf=sb+bon-des;
+
+    // Ejemplo 5:
+    // Desarrollar una aplicacion que permita calcular el total a pagar si se sabe que la cantidad que se compra es 10 y el precio del producto comprado es 125.80 y ademas se debe calcular es igv que es el 18% del subtotal. Mostrar todos los resultados.
+
+    // Resolucion:
+    var can=0;
+    var pre=0;
+    var sbt=0;
+    var igv=0;
+    var tot=0;
+
+    can=10;
+    pre=125.80;
+
+    sbt=can*pre;
+    igv=sbt*0.18;
+    tot=sbt*igv;
+
+    alert("El subtotal es: "+sbt);
+    alert("El igv es: "+igv);
+    alert("El total es: "+tot);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+.titulo {
+  color: orange;
+  font-weight: bolder;
+  font-style: italic;
+}
+.subtitulos {
+  color: rgb(133, 0, 128);
+  font-weight: bolder;
+}
+.parrafos {
+  color: rgb(197, 29, 29);
+  font-style: italic;
+}
+.barra {
+  background-color: palegreen;
+  height: 10px;
+}

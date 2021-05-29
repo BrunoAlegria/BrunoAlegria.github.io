@@ -1,0 +1,29 @@
+#titulo {
+  color: limegreen;
+  font-style: italic;
+}
+#barra {
+  background-color: mediumblue;
+  height: 10px;
+}
+.subtitulosparrafos {
+  color: mediumpurple;
+  font-weight: bolder;
+}
+#subtitulolista {
+  color: red;
+  font-style: italic;
+}
+p {
+  color: saddlebrown;
+  font-weight: bolder;
+  font-style: italic;
+}
+h3 {
+  color: teal;
+  font-weight: bolder;
+}
+#menu {
+  color: yellowgreen;
+  font-weight: bolder;
+}

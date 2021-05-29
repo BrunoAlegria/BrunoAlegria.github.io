@@ -1,0 +1,95 @@
+body {
+  background-color: blue;
+}
+.contenedor {
+  background-color: blueviolet;
+}
+header {
+  background-color: crimson;
+}
+nav {
+  background-color: darkorange;
+}
+section {
+  background-color: white;
+}
+footer {
+  background-color: yellowgreen;
+}
+/* Agregamos bordes */
+.borde1 {
+  border-style: dotted;
+}
+.borde2 {
+  border-style: dashed;
+}
+.borde3 {
+  border-style: solid;
+}
+.borde4 {
+  border-style: double;
+}
+.borde5 {
+  border-style: groove;
+}
+.borde6 {
+  border-style: ridge;
+}
+.borde7 {
+  border-style: inset;
+}
+.borde8 {
+  border-style: outset;
+}
+.borde9 {
+  border-style: none;
+}
+.borde10 {
+  border-style: hidden;
+}
+.borde11 {
+  border-style: solid dashed double dotted;
+}
+.borde12 {
+  border-style: dotted;
+  border-width: 10px;
+}
+.borde13 {
+  border-style: dashed;
+  border-width: medium;
+}
+.borde14 {
+  border-style: solid;
+  border-width: 10px 3px 25px 15px;
+}
+.borde15 {
+  border-style: solid;
+  border-color: red;
+}
+.borde16 {
+  border-style: dashed;
+  border-width: 15px;
+  border-color: royalblue green yellow purple;
+}
+.borde17 {
+  border-top-style: dashed;
+}
+.borde18 {
+  border-bottom-style: dotted;
+}
+.borde19 {
+  border-left-style: groove;
+}
+.borde20 {
+  border-right-style: solid;
+}
+.borde21 {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+}
+.borde22 {
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 15px;
+}

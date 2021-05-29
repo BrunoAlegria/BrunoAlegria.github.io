@@ -1,0 +1,13 @@
+.titulo {
+  color: rgb(6, 82, 223);
+  text-decoration: underline;
+}
+.contenido {
+  background-color: rgb(184, 184, 184);
+}
+.parrafo {
+  background-color: rgb(148, 148, 248);
+}
+.contenedor {
+  background-color: rgb(198, 185, 255);
+}

@@ -1,0 +1,89 @@
+/* Esto es un comentario */
+/* Aplicar comentarios a las partes de la pagina web */
+/* Le aplicamos colores de fondo */
+.contenedor {
+  background-color: slateblue;
+}
+.cabecera {
+  background-color: springgreen;
+}
+.menu {
+  background-color: tomato;
+}
+.contenido {
+  background-color: silver;
+}
+.pie {
+  background-color: orange;
+}
+body {
+  background-color: rgb(212, 57, 109);
+}
+/* Le aplicamos una imagen de fondo al parrafo */
+.parrafoimagen {
+  background-image: url("/IMG/m.jpg");
+}
+/* Le aplicamos un color de fondo al parrafo con transparencia */
+.parrafotransparencia {
+  background-color: black;
+  opacity: 75%;
+  color: white;
+}
+/* Agregamos una imagen de fondo al parrafo pero que se repita */
+.parrafoimagenrepetir {
+  background-image: url("/IMG/html5ycss3.png");
+}
+/* No se repite */
+.parrafoimagennorepetir {
+  background-image: url("/IMG/html5ycss3.png");
+  background-repeat: no-repeat;
+}
+/* Agregamos una imagen al fondo del parrafo pero cambiamos el tamaño */
+.parrafoimagentamaño {
+  background-image: url("/IMG/html5ycss3.png");
+  background-size: 30px;
+}
+
+/* Agregamos una imagen de fondo de parrafo pero quiero que se repita horizontal */
+.parrafoimagenrepetirH {
+  background-image: url("/IMG/html5ycss3.png");
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+
+/* Agregamos una imagen de fondo de parrafo pero quiero que se repita vertical */
+.parrafoimagenrepetirV {
+  background-image: url("/IMG/html5ycss3.png");
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+.parrafoimagencentrar {
+  background-image: url("/IMG/Imagen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimagenizquierda {
+  background-image: url("/IMG/Imagen.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimagenderecha {
+  background-image: url("/IMG/Imagen.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimagensuperior {
+  background-image: url("/IMG/Imagen.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+.parrafoimageninferior {
+  background-image: url("/IMG/Imagen.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
