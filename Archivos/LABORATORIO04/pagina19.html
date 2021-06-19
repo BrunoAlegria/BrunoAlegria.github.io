@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Parte 5</title>
+    <script type="text/javascript">
+    //Arreglos: Son espacios de memoria RAM que permiten almacenar mas de un valor a la vez, pero de un solo tipo de dato.
+
+    //Vectores: Son arreglos de una dimension.
+
+    //Ejemplo 1:
+    //Crear un vector que te permita almacenar las estaciones del año.
+
+    var est=["Verano", "Otoño", "Invierno", "Primavera"];
+
+    document.write("El tamaño del vector es: "+est.length);
+    document.write("<hr>");
+
+    document.write("El segundo valor del vector es: "+est[1]);
+    document.write("<hr>");
+
+    for(var i=0;i<est.length;i++){
+        document.write("El valor "+(i+1)+" del vector es: "+est[i]+"<br>");
+    }
+    document.write("<hr>");
+
+    est.push("Ya no hay mas estaciones");
+    for(var i=0;i<est.length;i++){
+        document.write("El valor "+(i+1)+" del vector es: "+est[i]+"<br>");
+    }
+    document.write("<hr>");
+
+    est.pop();
+    for(var i=0;i<est.length;i++){
+        document.write("El valor "+(i+1)+" del vector es: "+est[i]+"<br>");
+    }
+    document.write("<hr>");
+
+    est.unshift("Este valor es antes de todo");
+    for(var i=0;i<est.length;i++){
+        document.write("El valor "+(i+1)+" del vector es: "+est[i]+"<br>");
+    }
+    document.write("<hr>");
+
+    est.shift();
+    for(var i=0;i<est.length;i++){
+        document.write("El valor "+(i+1)+" del vector es: "+est[i]+"<br>");
+    }
+    document.write("<hr>");
+
+    var indice=-1;
+    indice=est.indexOf("Otoño");
+    document.write("El indice de Otoño es: "+indice);
+    document.write("<hr>");
+
+    est.splice(indice, 1);
+    for(var i=0;i<est.length;i++){
+        document.write("El valor "+(i+1)+" del vector es: "+est[i]+"<br>");
+    }
+    document.write("<hr>");
+
+    est[indice]="Nuevo Otoño";
+    for(var i=0;i<est.length;i++){
+        document.write("El valor "+(i+1)+" del vector es: "+est[i]+"<br>");
+    }
+    document.write("<hr>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
