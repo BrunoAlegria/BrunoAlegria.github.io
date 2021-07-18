@@ -1,0 +1,11 @@
+body {
+  font-size: 20px;
+  background-color: #ffc49d;
+}
+.cajas {
+  padding: 20px;
+  border-radius: 7px;
+  background-color: white;
+  width: 400px;
+  margin: auto;
+}
